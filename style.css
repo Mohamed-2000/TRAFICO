@@ -1,0 +1,307 @@
+:root {
+    --danger:#EE4D47;
+}
+
+body{
+    background-color: #FEF8F5;
+}
+* {
+    font-family: 'Rubik', 'DM Serif Display', sans-serif;
+  }
+
+  .fw-bold {
+    font-weight: 700 !important;
+  }
+  
+  
+.logo {
+    font-family: 'DM Serif Display', sans-serif;;
+}
+.btn-danger {
+    background-color: var(--danger);
+    color: white;
+}
+
+#header {
+    background-image:url('./img/BG.png');
+    background-repeat: no-repeat,no-repeat;
+    height: 1200px;
+    object-fit: cover;
+}
+
+.mainp {
+    font-family:'DM Serif Display', sans-serif;
+}
+
+.margin-sec2 {
+    margin-top: 15% !important;
+}
+
+.poss{
+    position: relative;
+    top:285px;
+}
+.backcolor {
+    background-color: #FCDDD4;
+    padding: 3%;
+    position: relative;
+
+}
+
+
+.line {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+ul { list-style: none; }
+
+/* Start How to Apply*/
+.space {
+    justify-content: space-between;
+
+}
+
+.lone {
+    color: #EE4D47;
+}
+
+/*End Hot To Applt*/
+
+/*start accordion part*/
+
+.accordion-body {
+    background-color: #FFF7F5;
+}
+
+.accordion-item {
+    margin-bottom: 2%;
+}
+
+.acc-btn, .acc-load {
+    background-color: #FACDC8;
+}
+
+
+.acc-background{
+    background-image: url("./img/www.png");
+    background-repeat: no-repeat;
+    background-position:100% 0%;
+}
+
+.accordion-button::after {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    content: "";
+    background-image: url("./img/SVG/plus.svg");
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    transition: transform .2s ease-in-out;
+}
+
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(./img/SVG/minus.svg);
+}
+/*End accordion part*/
+
+
+
+/*start footer*/
+footer {
+    height: 700px;
+}
+#footer {
+    background-image: url(./img/Footer\ BG\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: 100% 128%;
+    width: 90%;
+    /* border-radius: 0 10% 0 0; */
+
+}
+
+.formfoter{
+    background-color: white;
+    padding: 2%;
+}
+
+
+.just-content {
+    justify-content: space-around;
+
+}
+
+
+ .pfoot {
+    padding: 3%;
+    position: relative;
+    color: white;
+} 
+
+
+.linefooter {
+    position: absolute;
+    left: 0;
+    top: 12%;
+    height: 40%;
+}
+
+.footer-car-position{
+    
+    position: relative;
+    top: 121px;
+}
+
+.W-color {
+    color: white;
+}
+
+.W-color:hover {
+    color: #dee2e6;
+}
+
+.dis-flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-img-container {
+    text-align: center;
+}
+
+.line-backgroubnd {
+    background-image: url(./img/Vector\ 13.png);
+    background-repeat: no-repeat;
+    background-position: 0% -10%;
+}
+
+.icons {
+	padding:20px 0 ;
+	text-align:center;
+	overflow:hidden;
+    color: #EE4D47;
+
+}
+
+.icons span {color:#5b6063; }
+
+.icons ul {list-style:none;padding-left:0;margin:0;float:right;}
+
+.icons ul li {display:inline-block; margin-right: 2%;}
+.fa-facebook:hover,.fa-twitter:hover{cursor:pointer; color: #1DA1F2;}
+.fa-instagram:hover {cursor:pointer; color: #7046BD;}
+/*End footer*/
+
+@media only screen and (max-width:768px) {
+
+    #header {
+        background-image: url('./img/1.png');
+        background-position:50% 0%;
+        height: 570px;
+    }
+}
+
+
+@media only screen and (max-width:720px) {
+
+    .imgwidth {
+    width: 400px;
+    height: 400px;
+}
+
+}
+
+
+/*Start media query*/
+@media only screen and (min-width:720px) {
+    .linefooter {
+        position: absolute;
+        left: 0;
+        top: 16%;
+        height: 40%;
+    }
+}
+
+@media only screen and (max-width:990px) {
+
+    .linefooter {
+        position: absolute;
+        left: 0;
+        top: 14%;
+        height: 40%;
+    }
+}
+
+
+@media only screen and (max-width:576px) {    
+    .footer-img-container {
+        width: 100%;
+    }
+
+    .xsmall {
+        width: 100%;
+        margin-top: 15%;
+    }
+
+    .footer-car-position {
+        position: relative;
+        top: 128px;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .poss
+    {
+        top: 211px;
+    }
+}
+
+@media only screen and (max-width:1100px) {
+    .poss
+    {
+        top: 310px;
+    }
+}
+
+@media only screen and (max-width:990px) {
+    .poss
+    {
+        top: 405px;
+    }
+}
+
+
+
+@media only screen and (max-width:768px) {
+    .poss 
+    {
+        display:none;
+    }
+
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

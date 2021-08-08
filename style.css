@@ -25,6 +25,7 @@ body{
 #header {
     background-image:url('./img/BG.png');
     background-repeat: no-repeat,no-repeat;
+    background-position:50% 0%;
     height: 1200px;
     object-fit: cover;
 }
